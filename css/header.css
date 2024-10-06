@@ -1,0 +1,50 @@
+.container-header {
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+.navegator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Estilos para la lista de navegación */
+.list-header {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Centrar la lista de navegación */
+    flex-grow: 1; /* Hacer que la lista ocupe todo el espacio disponible */
+}
+
+.list-atribute {
+    font-size: 18px;
+    font-weight: bold;
+    color: #365902; /* Color del texto */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Transición suave en hover */
+}
+
+.list-atribute:hover {
+    color: #2a4c01; /* Color más oscuro al hacer hover */
+}
+
+/* Estilo para el botón de login */
+.btn-login {
+    padding: 10px 20px;
+    background-color: #365902;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+    position: absolute;
+    right: 20px; /* Mueve el botón hacia la derecha */
+}
+
+.btn-login:hover {
+    background-color: #2a4c01; /* Color más oscuro al hacer hover */
+}
